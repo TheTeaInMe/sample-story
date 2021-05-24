@@ -154,6 +154,9 @@
             delay += 200.0;
         }
 
+        var hr = document.createElement('hr');
+        storyContainer.appendChild(hr);
+    
         // Create HTML choices from ink choices
         story.currentChoices.forEach(function(choice) {
 
